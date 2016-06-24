@@ -1,8 +1,13 @@
-# Current Project CI Status:
+# MassText - alpha D8 build
 [![Build Status](https://travis-ci.org/isaacchansky/drupal-starter.svg?branch=master)](https://travis-ci.org/isaacchansky/drupal-starter)
 
 
-# Composer template for Drupal projects
+
+---
+
+# This project is based on Drupal Composer:
+
+## Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 
@@ -13,7 +18,7 @@ If you want to know how to use it as replacement for
 [Drush Make](https://github.com/drush-ops/drush/blob/master/docs/make.md) visit
 the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 
-## Usage
+### Usage
 
 First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
@@ -39,7 +44,7 @@ The `composer create-project` command passes ownership of all files to the
 project that is created. You should create a new git repository, and commit
 all files not excluded by the .gitignore file.
 
-## What does the template do?
+### What does the template do?
 
 When installing the given `composer.json` some tasks are taken care of:
 
@@ -54,7 +59,7 @@ When installing the given `composer.json` some tasks are taken care of:
 * Latest version of drush is installed locally for use at `vendor/bin/drush`.
 * Latest version of DrupalConsole is installed locally for use at `vendor/bin/drupal`.
 
-## Updating Drupal Core
+### Updating Drupal Core
 
 This project will attempt to keep all of your Drupal Core files up-to-date; the
 project [drupal-composer/drupal-scaffold](https://github.com/drupal-composer/drupal-scaffold)
@@ -78,21 +83,21 @@ Follow the steps below to update your core files.
    keeping all of your modifications at the beginning or end of the file is a
    good strategy to keep merges easy.
 
-## Generate composer.json from existing project
+### Generate composer.json from existing project
 
 With using [the "Composer Generate" drush extension](https://www.drupal.org/project/composer_generate)
 you can now generate a basic `composer.json` file from an existing project. Note
 that the generated `composer.json` might differ from this project's file.
 
 
-## FAQ
+### FAQ
 
-### Should I commit the contrib modules I download
+#### Should I commit the contrib modules I download
 
 Composer recommends **no**. They provide [argumentation against but also
 workrounds if a project decides to do it anyway](https://getcomposer.org/doc/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md).
 
-### How can I apply patches to downloaded modules?
+#### How can I apply patches to downloaded modules?
 
 If you need to apply patches (depending on the project being modified, a pull
 request is often a better solution), you can do so with the
