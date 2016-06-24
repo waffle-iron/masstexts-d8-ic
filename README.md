@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/massgov/masstexts-d8-ic.png?label=ready&title=Ready)](https://waffle.io/massgov/masstexts-d8-ic)
 # MassText - alpha D8 build
 [![Build Status](https://travis-ci.org/isaacchansky/drupal-starter.svg?branch=master)](https://travis-ci.org/isaacchansky/drupal-starter)
 
