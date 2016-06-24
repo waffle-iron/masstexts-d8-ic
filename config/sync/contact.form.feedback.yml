@@ -1,0 +1,12 @@
+uuid: 9be7348e-2ef8-4bcf-bcc0-4025c0edab54
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - ichansky@gmail.com
+reply: ''
+weight: 0

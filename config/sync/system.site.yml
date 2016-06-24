@@ -1,0 +1,14 @@
+uuid: 290241ba-f7ea-4974-8720-2c2dbd8e61ad
+name: 'Drupal Starter'
+mail: ichansky@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
